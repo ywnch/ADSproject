@@ -9,3 +9,6 @@
   2. There is no categories in FB data.
 
 - Find a list of 2016 concerts in Barclays Center in Wiki, which has "Tickets Sold" info.
+
+### CitiBike Data (updated: 11/14)
+- The subset csv file contains Citi Bike trips throughout 2016 that originated from the 32 stations within the 1 km radius of the Barclay Center and between 16:00 - 24:00. (~100,000 trips)

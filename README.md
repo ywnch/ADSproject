@@ -12,3 +12,9 @@
 
 ### CitiBike Data (updated: 11/14)
 - The subset csv file contains Citi Bike trips throughout 2016 that originated from the 32 stations within the 1 km radius of the Barclay Center and between 16:00 - 24:00. (~100,000 trips)
+
+### To-do
+- confirm and merge event types
+- add end time
+- calculate trip distance
+- explore database solution (potentially with Carto)

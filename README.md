@@ -18,3 +18,5 @@
 - add end time
 - calculate trip distance
 - explore database solution (potentially with Carto)
+- calculate mode for trip direction
+- research best mapping options

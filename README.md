@@ -1,5 +1,9 @@
 # ADSproject
 
+GetCitiBike
+GetBarclayEvents
+
+
 ### Events Data
 - Get all the 2016 events in Barclays Center via Facebook API.
   The data in Barclays Center Website (http://www.barclayscenter.com/events/) is in html and difficult to collect. So choose    to use the events in Barclays Center's FB page.

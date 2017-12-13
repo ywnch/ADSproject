@@ -1,0 +1,54 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Count   R-squared:                       0.480
+Model:                            OLS   Adj. R-squared:                  0.475
+Method:                 Least Squares   F-statistic:                     93.93
+Date:                Fri, 08 Dec 2017   Prob (F-statistic):               0.00
+Time:                        14:13:22   Log-Likelihood:                -11391.
+No. Observations:                2879   AIC:                         2.284e+04
+Df Residuals:                    2850   BIC:                         2.301e+04
+Df Model:                          28                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================================================
+                                                                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                    -17.3744      6.823     -2.547      0.011     -30.752      -3.996
+weekday[T.True]                                                                1.3571      0.545      2.489      0.013       0.288       2.426
+C(Event_type, Treatment(reference='no-event'))[T.basketball]                  30.7881     12.807      2.404      0.016       5.677      55.900
+C(Event_type, Treatment(reference='no-event'))[T.boxing]                      84.3749     35.322      2.389      0.017      15.116     153.634
+C(Event_type, Treatment(reference='no-event'))[T.concert]                    -27.8251     22.024     -1.263      0.207     -71.010      15.359
+C(Event_type, Treatment(reference='no-event'))[T.family]                      88.5216     51.958      1.704      0.089     -13.357     190.400
+C(Event_type, Treatment(reference='no-event'))[T.hockey]                      77.9004     18.918      4.118      0.000      40.805     114.996
+C(Event_type, Treatment(reference='no-event'))[T.other]                       20.3641     40.326      0.505      0.614     -58.706      99.434
+season                                                                        31.7726      2.563     12.397      0.000      26.747      36.798
+season:C(Event_type, Treatment(reference='no-event'))[T.basketball]          -10.8377      4.976     -2.178      0.029     -20.595      -1.080
+season:C(Event_type, Treatment(reference='no-event'))[T.boxing]              -29.3775     14.353     -2.047      0.041     -57.520      -1.235
+season:C(Event_type, Treatment(reference='no-event'))[T.concert]               8.9187      7.724      1.155      0.248      -6.226      24.063
+season:C(Event_type, Treatment(reference='no-event'))[T.family]              -15.4198     13.655     -1.129      0.259     -42.194      11.354
+season:C(Event_type, Treatment(reference='no-event'))[T.hockey]              -12.9605      6.028     -2.150      0.032     -24.781      -1.141
+season:C(Event_type, Treatment(reference='no-event'))[T.other]                -1.9350     13.196     -0.147      0.883     -27.809      23.939
+O_hour                                                                         0.6494      0.348      1.868      0.062      -0.032       1.331
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.basketball]           -1.1641      0.653     -1.783      0.075      -2.444       0.116
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.boxing]               -3.5239      1.804     -1.953      0.051      -7.062       0.014
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.concert]               1.0431      1.124      0.928      0.354      -1.161       3.247
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.family]               -3.4918      2.646     -1.319      0.187      -8.681       1.697
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.hockey]               -3.1500      0.964     -3.269      0.001      -5.040      -1.260
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.other]                -0.8529      2.054     -0.415      0.678      -4.880       3.174
+season:O_hour                                                                 -1.1574      0.131     -8.858      0.000      -1.414      -0.901
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.basketball]     0.4594      0.254      1.812      0.070      -0.038       0.957
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.boxing]         1.1731      0.732      1.602      0.109      -0.263       2.609
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.concert]       -0.3241      0.394     -0.823      0.411      -1.097       0.448
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.family]         0.5712      0.695      0.821      0.412      -0.792       1.935
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.hockey]         0.5527      0.307      1.800      0.072      -0.049       1.155
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.other]          0.0203      0.672      0.030      0.976      -1.297       1.338
+==============================================================================
+Omnibus:                      609.727   Durbin-Watson:                   0.739
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1814.148
+Skew:                           1.085   Prob(JB):                         0.00
+Kurtosis:                       6.227   Cond. No.                     1.32e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.32e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

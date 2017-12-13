@@ -1,0 +1,56 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Count   R-squared:                       0.592
+Model:                            OLS   Adj. R-squared:                  0.585
+Method:                 Least Squares   F-statistic:                     85.30
+Date:                Wed, 13 Dec 2017   Prob (F-statistic):          6.51e-317
+Time:                        13:25:47   Log-Likelihood:                -6542.0
+No. Observations:                1795   AIC:                         1.315e+04
+Df Residuals:                    1764   BIC:                         1.332e+04
+Df Model:                          30                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================================================
+                                                                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                    -32.4875     11.082     -2.931      0.003     -54.224     -10.751
+weekday[T.True]                                                                4.7082      0.508      9.272      0.000       3.712       5.704
+C(Event_type, Treatment(reference='no-event'))[T.basketball]                  50.2078     20.680      2.428      0.015       9.648      90.767
+C(Event_type, Treatment(reference='no-event'))[T.boxing]                     103.5489     56.704      1.826      0.068      -7.665     214.763
+C(Event_type, Treatment(reference='no-event'))[T.concert]                    -53.4284     35.489     -1.505      0.132    -123.034      16.177
+C(Event_type, Treatment(reference='no-event'))[T.family]                     112.7382     83.862      1.344      0.179     -51.742     277.218
+C(Event_type, Treatment(reference='no-event'))[T.hockey]                      80.0080     30.556      2.618      0.009      20.079     139.937
+C(Event_type, Treatment(reference='no-event'))[T.other]                        4.9927     65.092      0.077      0.939    -122.673     132.659
+precipitation                                                                 -3.7322      0.781     -4.782      0.000      -5.263      -2.201
+temperature                                                                    0.0079      0.014      0.556      0.578      -0.020       0.036
+season                                                                        53.5440      4.155     12.886      0.000      45.395      61.694
+season:C(Event_type, Treatment(reference='no-event'))[T.basketball]          -19.0285      8.036     -2.368      0.018     -34.790      -3.267
+season:C(Event_type, Treatment(reference='no-event'))[T.boxing]              -57.9358     23.080     -2.510      0.012    -103.204     -12.668
+season:C(Event_type, Treatment(reference='no-event'))[T.concert]              13.9316     12.450      1.119      0.263     -10.487      38.351
+season:C(Event_type, Treatment(reference='no-event'))[T.family]              -28.7579     22.040     -1.305      0.192     -71.985      14.470
+season:C(Event_type, Treatment(reference='no-event'))[T.hockey]              -11.4470      9.736     -1.176      0.240     -30.543       7.649
+season:C(Event_type, Treatment(reference='no-event'))[T.other]               -16.7088     21.300     -0.784      0.433     -58.484      25.066
+O_hour                                                                         1.2847      0.526      2.442      0.015       0.253       2.317
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.basketball]           -2.1674      0.984     -2.203      0.028      -4.097      -0.238
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.boxing]               -4.5047      2.694     -1.672      0.095      -9.788       0.779
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.concert]               2.2032      1.688      1.305      0.192      -1.108       5.514
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.family]               -4.8484      3.984     -1.217      0.224     -12.663       2.966
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.hockey]               -3.3153      1.452     -2.283      0.023      -6.163      -0.468
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.other]                -0.3170      3.093     -0.102      0.918      -6.383       5.749
+season:O_hour                                                                 -2.2007      0.197    -11.145      0.000      -2.588      -1.813
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.basketball]     0.8624      0.382      2.257      0.024       0.113       1.612
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.boxing]         2.5873      1.096      2.360      0.018       0.437       4.738
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.concert]       -0.5468      0.592     -0.924      0.356      -1.708       0.614
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.family]         1.2643      1.047      1.207      0.227      -0.789       3.318
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.hockey]         0.4993      0.463      1.079      0.281      -0.408       1.407
+season:O_hour:C(Event_type, Treatment(reference='no-event'))[T.other]          0.8120      1.012      0.802      0.422      -1.173       2.797
+==============================================================================
+Omnibus:                      259.606   Durbin-Watson:                   1.030
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              617.926
+Skew:                           0.814   Prob(JB):                    6.59e-135
+Kurtosis:                       5.369   Cond. No.                     3.35e+04
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.35e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

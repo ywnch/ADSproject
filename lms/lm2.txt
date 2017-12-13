@@ -1,0 +1,41 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Count   R-squared:                       0.450
+Model:                            OLS   Adj. R-squared:                  0.447
+Method:                 Least Squares   F-statistic:                     156.3
+Date:                Fri, 08 Dec 2017   Prob (F-statistic):               0.00
+Time:                        14:13:16   Log-Likelihood:                -11471.
+No. Observations:                2879   AIC:                         2.297e+04
+Df Residuals:                    2863   BIC:                         2.307e+04
+Df Model:                          15                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================================================================
+                                                                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                              39.7323      2.699     14.723      0.000      34.441      45.024
+weekday[T.True]                                                         1.6768      0.554      3.026      0.003       0.590       2.763
+C(Event_type, Treatment(reference='no-event'))[T.basketball]            0.5770      6.267      0.092      0.927     -11.711      12.865
+C(Event_type, Treatment(reference='no-event'))[T.boxing]               13.9453     14.248      0.979      0.328     -13.992      41.882
+C(Event_type, Treatment(reference='no-event'))[T.concert]               1.7434      7.688      0.227      0.821     -13.331      16.818
+C(Event_type, Treatment(reference='no-event'))[T.family]               60.6068     11.708      5.177      0.000      37.650      83.563
+C(Event_type, Treatment(reference='no-event'))[T.hockey]               50.6365      8.180      6.190      0.000      34.596      66.676
+C(Event_type, Treatment(reference='no-event'))[T.other]                24.0317     15.164      1.585      0.113      -5.703      53.766
+season                                                                  8.5186      0.228     37.427      0.000       8.072       8.965
+O_hour                                                                 -2.2052      0.133    -16.541      0.000      -2.467      -1.944
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.basketball]     0.1634      0.319      0.512      0.609      -0.463       0.789
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.boxing]        -0.6674      0.726     -0.919      0.358      -2.092       0.757
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.concert]       -0.1044      0.392     -0.266      0.790      -0.873       0.664
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.family]        -2.8355      0.596     -4.757      0.000      -4.004      -1.667
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.hockey]        -2.0631      0.417     -4.952      0.000      -2.880      -1.246
+O_hour:C(Event_type, Treatment(reference='no-event'))[T.other]         -1.2472      0.772     -1.615      0.106      -2.762       0.267
+==============================================================================
+Omnibus:                      690.704   Durbin-Watson:                   0.711
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2098.513
+Skew:                           1.219   Prob(JB):                         0.00
+Kurtosis:                       6.398   Cond. No.                     1.27e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.27e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

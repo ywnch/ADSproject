@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  Count   R-squared:                       0.172
+Model:                            OLS   Adj. R-squared:                  0.169
+Method:                 Least Squares   F-statistic:                     74.37
+Date:                Fri, 08 Dec 2017   Prob (F-statistic):          9.97e-112
+Time:                        14:12:27   Log-Likelihood:                -12061.
+No. Observations:                2879   AIC:                         2.414e+04
+Df Residuals:                    2870   BIC:                         2.419e+04
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+================================================================================================================================
+                                                                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                       65.2602      2.609     25.010      0.000      60.144      70.376
+weekday[T.True]                                                  2.1303      0.679      3.136      0.002       0.799       3.462
+C(Event_type, Treatment(reference='no-event'))[T.basketball]     1.1924      0.900      1.325      0.185      -0.572       2.957
+C(Event_type, Treatment(reference='no-event'))[T.boxing]        -0.5113      2.072     -0.247      0.805      -4.575       3.552
+C(Event_type, Treatment(reference='no-event'))[T.concert]        1.7759      1.100      1.615      0.107      -0.381       3.932
+C(Event_type, Treatment(reference='no-event'))[T.family]        16.3221      1.677      9.736      0.000      13.035      19.609
+C(Event_type, Treatment(reference='no-event'))[T.hockey]        14.2843      1.171     12.200      0.000      11.989      16.580
+C(Event_type, Treatment(reference='no-event'))[T.other]          3.1831      2.178      1.462      0.144      -1.087       7.453
+O_hour                                                          -2.4542      0.130    -18.842      0.000      -2.710      -2.199
+==============================================================================
+Omnibus:                      844.464   Durbin-Watson:                   0.487
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2404.980
+Skew:                           1.530   Prob(JB):                         0.00
+Kurtosis:                       6.269   Cond. No.                         174.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

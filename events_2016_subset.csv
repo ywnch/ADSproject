@@ -1,0 +1,136 @@
+,EventID,Event_type,Name,Start_Time,Start_Hour,End_Time,End_Hour,weekday
+1,1490000000000000.0,basketball,Harlem Globetrotters,2016-01-02 19:00:00,19,2016-01-02 21:00:00,21,False
+2,201000000000000.0,basketball,Brooklyn Nets vs. Boston Celtics,2016-01-04 19:30:00,19,2016-01-04 21:30:00,21,True
+3,1080000000000000.0,basketball,Brooklyn Nets vs. Toronto Raptors,2016-01-06 19:30:00,19,2016-01-06 21:30:00,21,True
+4,1390000000000000.0,basketball,Brooklyn Nets vs. Orlando Magic,2016-01-08 19:30:00,19,2016-01-08 21:30:00,21,True
+5,1230000000000000.0,basketball,Brooklyn Nets vs. San Antonio Spurs,2016-01-11 19:30:00,19,2016-01-11 21:30:00,21,True
+6,920000000000000.0,basketball,Brooklyn Nets vs. New York Knicks,2016-01-13 19:30:00,19,2016-01-13 21:30:00,21,True
+7,111000000000000.0,basketball,Brooklyn Nets vs. Portland Trail Blazers,2016-01-15 19:30:00,19,2016-01-15 21:30:00,21,True
+8,1720000000000000.0,boxing,Heavyweight Championship: Deontay Wilder v. Artur Szpilka,2016-01-16 18:00:00,18,2016-01-16 19:00:00,19,False
+11,1650000000000000.0,basketball,Brooklyn Nets vs. Cleveland Cavaliers,2016-01-20 19:30:00,19,2016-01-20 21:30:00,21,True
+12,1660000000000000.0,concert,Kygo,2016-01-21 20:00:00,20,2016-01-21 23:00:00,23,True
+13,887000000000000.0,basketball,Brooklyn Nets vs. Utah Jazz,2016-01-22 19:30:00,19,2016-01-22 21:30:00,21,True
+14,464000000000000.0,basketball,Brooklyn Nets vs. Oklahoma City Thunder,2016-01-24 19:30:00,19,2016-01-24 21:30:00,21,False
+15,1070000000000000.0,basketball,Brooklyn Nets vs. Miami Heat,2016-01-26 19:30:00,19,2016-01-26 21:30:00,21,True
+16,917000000000000.0,concert,Muse: Drones World Tour,2016-01-27 19:30:00,19,2016-01-27 22:30:00,22,True
+17,496000000000000.0,basketball,Brooklyn Nets vs. Detroit Pistons,2016-02-01 19:30:00,19,2016-02-01 21:30:00,21,True
+18,851000000000000.0,basketball,Brooklyn Nets vs. Indiana Pacers,2016-02-03 19:30:00,19,2016-02-03 21:30:00,21,True
+19,1270000000000000.0,basketball,Brooklyn Nets vs. Sacramento Kings,2016-02-05 19:30:00,19,2016-02-05 21:30:00,21,True
+20,1720000000000000.0,basketball,Brooklyn Nets vs. Denver Nuggets,2016-02-08 19:30:00,19,2016-02-08 21:30:00,21,True
+21,1520000000000000.0,basketball,Brooklyn Nets vs. Memphis Grizzlies,2016-02-10 19:30:00,19,2016-02-10 21:30:00,21,True
+22,498000000000000.0,other,Ladies Night R&B Super Jam,2016-02-12 20:00:00,20,2016-02-12 23:00:00,23,True
+23,926000000000000.0,concert,Maxwell and Nas,2016-02-14 20:00:00,20,2016-02-14 23:00:00,23,False
+24,442000000000000.0,basketball,Brooklyn Nets vs. New York Knicks,2016-02-19 19:30:00,19,2016-02-19 21:30:00,21,True
+25,712000000000000.0,basketball,Brooklyn Nets vs. Charlotte Hornets,2016-02-21 18:00:00,18,2016-02-21 20:00:00,20,False
+28,514000000000000.0,hockey,New York Islanders vs. Pittsburgh Penguins,2016-03-08 19:30:00,19,2016-03-08 21:30:00,21,True
+29,1500000000000000.0,basketball,Atlantic 10 Men's Basketball Championship: First Round (Session 1),2016-03-09 18:30:00,18,2016-03-09 20:30:00,20,True
+31,446000000000000.0,basketball,Atlantic 10 Men's Basketball Championship: Second Round (Session 3),2016-03-10 18:30:00,18,2016-03-10 20:30:00,20,True
+33,1680000000000000.0,basketball,Atlantic 10 Men's Basketball Championship: Quarterfinals (Session 5),2016-03-11 18:30:00,18,2016-03-11 20:30:00,20,True
+37,1650000000000000.0,basketball,Brooklyn Nets vs. Milwaukee Bucks,2016-03-13 20:00:00,20,2016-03-13 22:00:00,22,False
+38,1190000000000000.0,basketball,Brooklyn Nets vs. Philadelphia 76ers,2016-03-15 19:30:00,19,2016-03-15 21:30:00,21,True
+39,186000000000000.0,hockey,New York Islanders vs. Philadelphia Flyers,2016-03-21 19:30:00,19,2016-03-21 21:30:00,21,True
+40,1490000000000000.0,basketball,Brooklyn Nets vs. Charlotte Hornets,2016-03-22 19:30:00,19,2016-03-22 21:30:00,21,True
+41,616000000000000.0,basketball,Brooklyn Nets vs. Cleveland Cavaliers,2016-03-24 19:30:00,19,2016-03-24 21:30:00,21,True
+42,1610000000000000.0,concert,Katt Williams: Conspiracy Theory,2016-03-25 20:00:00,20,2016-03-25 23:00:00,23,True
+43,906000000000000.0,basketball,Brooklyn Nets vs. Indiana Pacers,2016-03-26 18:00:00,18,2016-03-26 20:00:00,20,False
+44,1490000000000000.0,concert,Rihanna: Anti World Tour 2016,2016-03-27 19:30:00,19,2016-03-27 22:30:00,22,False
+45,924000000000000.0,boxing,WWE Monday Night RAW,2016-03-28 18:30:00,18,2016-03-28 19:30:00,19,True
+46,1640000000000000.0,concert,Rihanna: Anti World Tour 2016,2016-03-30 19:30:00,19,2016-03-30 22:30:00,22,True
+48,1550000000000000.0,other,Rock and Roll Hall of Fame Induction Ceremony 2016,2016-04-08 19:00:00,19,2016-04-08 22:00:00,22,True
+49,450000000000000.0,basketball,Brooklyn Nets vs. Washington Wizards,2016-04-11 19:30:00,19,2016-04-11 21:30:00,21,True
+50,1560000000000000.0,concert,Duran Duran: The Paper Gods Tour with Chic featuring Nile Rodgers,2016-04-12 19:00:00,19,2016-04-12 21:00:00,21,True
+51,1690000000000000.0,basketball,Brooklyn Nets vs. Toronto Raptors,2016-04-13 20:00:00,20,2016-04-13 22:00:00,22,True
+53,482000000000000.0,boxing,Premier Boxing Champions: Errol Spence Jr. V Chris Algieri,2016-04-16 18:00:00,18,2016-04-16 19:00:00,19,False
+54,1690000000000000.0,boxing,Daily News Golden Gloves,2016-04-17 20:00:00,20,2016-04-17 21:00:00,21,False
+55,983000000000000.0,concert,Bruce Springsteen and the E Street Band: The River Tour,2016-04-23 19:30:00,19,2016-04-23 22:30:00,22,False
+56,1530000000000000.0,concert,Bruce Springsteen and the E Street Band: The River Tour,2016-04-25 19:30:00,19,2016-04-25 22:30:00,22,True
+57,1720000000000000.0,concert,Justin Bieber: Purpose World Tour,2016-05-04 19:30:00,19,2016-05-04 22:30:00,22,True
+58,1680000000000000.0,concert,Justin Bieber: Purpose World Tour,2016-05-05 19:30:00,19,2016-05-05 22:30:00,22,True
+59,1690000000000000.0,other,Martin Lawrence,2016-05-14 20:00:00,20,2016-05-14 21:00:00,21,False
+60,534000000000000.0,concert,The 1975,2016-05-17 20:00:00,20,2016-05-17 23:00:00,23,True
+61,1560000000000000.0,concert,Bad Boy Family Reunion,2016-05-20 20:00:00,20,2016-05-20 23:00:00,23,True
+62,130000000000000.0,concert,Bad Boy Family Reunion,2016-05-21 20:00:00,20,2016-05-21 23:00:00,23,False
+63,471000000000000.0,concert,Selena Gomez,2016-06-01 19:30:00,19,2016-06-01 22:30:00,22,True
+64,173000000000000.0,concert,Florence and the Machine: How Beautiful Tour,2016-06-14 19:30:00,19,2016-06-14 22:30:00,22,True
+65,1650000000000000.0,concert,Florence and the Machine: How Beautiful Tour,2016-06-15 19:30:00,19,2016-06-15 22:30:00,22,True
+66,506000000000000.0,boxing,Premier Boxing Champions: Keith Thurman V. Shawn Porter,2016-06-25 17:40:00,17,2016-06-25 18:40:00,18,False
+67,513000000000000.0,basketball,Roc Nation Summer Classic Charity Basketball Game,2016-07-21 20:00:00,20,2016-07-21 22:00:00,22,True
+68,1670000000000000.0,concert,One Africa Music Fest,2016-07-22 19:30:00,19,2016-07-22 22:30:00,22,True
+70,1620000000000000.0,concert,Barbra Streisand,2016-08-11 20:00:00,20,2016-08-11 23:00:00,23,True
+71,1220000000000000.0,concert,Barbra Streisand,2016-08-13 20:00:00,20,2016-08-13 23:00:00,23,False
+72,292000000000000.0,concert,Flo Rida,2016-08-18 19:00:00,19,2016-08-18 22:00:00,22,True
+77,1610000000000000.0,other,NXT TakeOver: Brooklyn II,2016-08-20 19:30:00,19,2016-08-20 20:30:00,20,False
+78,700000000000000.0,boxing,WWE SummerSlam,2016-08-21 18:00:00,18,2016-08-21 19:00:00,19,False
+79,199000000000000.0,concert,Prophets of Rage - Make America Rage Again Tour,2016-08-27 19:00:00,19,2016-08-27 22:00:00,22,False
+80,1690000000000000.0,other,TFC Presents ASAP Live in NY,2016-09-03 17:00:00,17,2016-09-03 20:00:00,20,False
+81,514000000000000.0,family,TORUK - The First Flight,2016-09-07 19:30:00,19,2016-09-07 21:30:00,21,True
+82,783000000000000.0,family,TORUK - The First Flight,2016-09-08 19:30:00,19,2016-09-08 21:30:00,21,True
+84,1010000000000000.0,family,TORUK - The First Flight,2016-09-09 19:30:00,19,2016-09-09 21:30:00,21,True
+86,551000000000000.0,family,TORUK - The First Flight,2016-09-10 20:00:00,20,2016-09-10 22:00:00,22,False
+88,1830000000000000.0,family,TORUK - The First Flight,2016-09-11 17:30:00,17,2016-09-11 19:30:00,19,False
+89,1110000000000000.0,hockey,New York Islanders vs. Philadelphia Flyers,2016-09-26 19:00:00,19,2016-09-26 21:00:00,21,True
+90,1730000000000000.0,hockey,New York Islanders vs. New Jersey Devils,2016-10-03 19:00:00,19,2016-10-03 21:00:00,21,True
+91,545000000000000.0,concert,EROS RAMAZZOTTI WORLD TOUR 2016,2016-10-05 20:00:00,20,2016-10-05 23:00:00,23,True
+92,185000000000000.0,basketball,Brooklyn Nets vs. Detroit Pistons,2016-10-06 19:30:00,19,2016-10-06 21:30:00,21,True
+93,507000000000000.0,concert,Blake Shelton: Presented by GildanÂ®,2016-10-07 19:30:00,19,2016-10-07 22:30:00,22,True
+94,343000000000000.0,concert,Blake Shelton: Presented by GildanÂ®,2016-10-08 19:30:00,19,2016-10-08 22:30:00,22,False
+95,1540000000000000.0,concert,Juan Gabriel,2016-10-09 19:00:00,19,2016-10-09 22:00:00,22,False
+96,777000000000000.0,concert,Drake: Summer Sixteen Tour,2016-10-11 18:30:00,18,2016-10-11 21:30:00,21,True
+97,970000000000000.0,concert,Drake: Summer Sixteen Tour,2016-10-12 18:30:00,18,2016-10-12 21:30:00,21,True
+98,520000000000000.0,basketball,Brooklyn Nets vs. Boston Celtics,2016-10-13 19:30:00,19,2016-10-13 21:30:00,21,True
+99,302000000000000.0,other,TIDAL X 1015,2016-10-15 20:00:00,20,2016-10-15 23:00:00,23,False
+100,1750000000000000.0,hockey,New York Islanders V Anaheim Ducks (Magnetic Schedule & T-Shirt),2016-10-16 18:00:00,18,2016-10-16 20:00:00,20,False
+101,872000000000000.0,hockey,New York Islanders V San Jose Sharks,2016-10-18 19:00:00,19,2016-10-18 21:00:00,21,True
+102,161000000000000.0,basketball,Brooklyn Nets vs. New York Knicks,2016-10-20 19:30:00,19,2016-10-20 21:30:00,21,True
+103,624000000000000.0,hockey,New York Islanders V Arizona Coyotes (Rally Towel Giveaway),2016-10-21 19:00:00,19,2016-10-21 21:00:00,21,True
+104,159000000000000.0,boxing,Masters of Ceremony,2016-10-22 20:00:00,20,2016-10-22 21:00:00,21,False
+105,297000000000000.0,hockey,New York Islanders V Minnesota Wild,2016-10-23 18:00:00,18,2016-10-23 20:00:00,20,False
+106,1230000000000000.0,concert,Sia: Nostalgic For The Present Tour,2016-10-25 19:00:00,19,2016-10-25 22:00:00,22,True
+107,1640000000000000.0,concert,Miguel - Upgrade Meet & Greet Packages,2016-10-25 19:01:00,19,2016-10-25 22:01:00,22,True
+108,757000000000000.0,hockey,New York Islanders v. Montreal Canadiens (Bill Torrey Bowtie),2016-10-26 19:00:00,19,2016-10-26 21:00:00,21,True
+109,1500000000000000.0,other,Power 105.1 Presents Powerhouse NYC,2016-10-27 19:00:00,19,2016-10-27 22:00:00,22,True
+110,919000000000000.0,basketball,Brooklyn Nets vs. Indiana Pacers,2016-10-28 19:30:00,19,2016-10-28 21:30:00,21,True
+111,1030000000000000.0,hockey,New York Islanders v. Toronto Maple Leafs (Trick-or-Treat Bag),2016-10-30 18:00:00,18,2016-10-30 20:00:00,20,False
+112,158000000000000.0,basketball,Brooklyn Nets vs. Chicago Bulls,2016-10-31 19:30:00,19,2016-10-31 21:30:00,21,True
+113,1790000000000000.0,hockey,New York Islanders v. Tampa Bay Lightning,2016-11-01 19:30:00,19,2016-11-01 21:30:00,21,True
+114,1640000000000000.0,basketball,Brooklyn Nets vs. Detroit Pistons,2016-11-02 19:30:00,19,2016-11-02 21:30:00,21,True
+115,508000000000000.0,hockey,New York Islanders v. Philadelphia Flyers,2016-11-03 19:00:00,19,2016-11-03 21:00:00,21,True
+116,1160000000000000.0,basketball,Brooklyn Nets vs. Charlotte Hornets,2016-11-04 19:30:00,19,2016-11-04 21:30:00,21,True
+117,273000000000000.0,hockey,New York Islanders v. Edmonton Oilers,2016-11-05 19:00:00,19,2016-11-05 21:00:00,21,False
+118,283000000000000.0,family,Kellogg's Tour Of Gymnastics Champions,2016-11-06 17:00:00,17,2016-11-06 18:00:00,18,False
+119,301000000000000.0,hockey,New York Islanders v. Vancouver Canucks (Cal Clutterbuck Bobblehead),2016-11-07 19:00:00,19,2016-11-07 21:00:00,21,True
+120,311000000000000.0,basketball,Brooklyn Nets v. Minnesota Timberwolves,2016-11-08 19:30:00,19,2016-11-08 21:30:00,21,True
+121,1640000000000000.0,family,Disney On Ice presents Follow Your Heart,2016-11-09 19:00:00,19,2016-11-09 21:00:00,21,True
+123,620000000000000.0,family,Disney On Ice presents Follow Your Heart,2016-11-10 19:00:00,19,2016-11-10 21:00:00,21,True
+125,1070000000000000.0,family,Disney On Ice presents Follow Your Heart,2016-11-11 19:00:00,19,2016-11-11 21:00:00,21,True
+128,291000000000000.0,family,Disney On Ice presents Follow Your Heart,2016-11-12 19:00:00,19,2016-11-12 21:00:00,21,False
+130,893000000000000.0,family,Disney On Ice presents Follow Your Heart,2016-11-13 17:00:00,17,2016-11-13 19:00:00,19,False
+131,157000000000000.0,hockey,New York Islanders v. Tampa Bay Lightning (Brock Nelson Bobblehead),2016-11-14 19:00:00,19,2016-11-14 21:00:00,21,True
+132,1640000000000000.0,basketball,LIU Brooklyn Blackbirds Men's Basketball vs. Loyola Greyhounds Men's Basketball,2016-11-16 19:00:00,19,2016-11-16 21:00:00,21,True
+133,1620000000000000.0,hockey,New York Islanders V Pittsburgh Penguins,2016-11-18 19:00:00,19,2016-11-18 21:00:00,21,True
+134,237000000000000.0,concert,Keith Urban - ripCORD World Tour 2016,2016-11-19 19:30:00,19,2016-11-19 22:30:00,22,False
+136,178000000000000.0,basketball,Legends Classic Basketball Doubleheader,2016-11-21 19:00:00,19,2016-11-21 21:00:00,21,True
+140,939000000000000.0,basketball,Brooklyn Nets v. Boston Celtics,2016-11-23 19:30:00,19,2016-11-23 21:30:00,21,True
+143,584000000000000.0,basketball,Barclays Center Classic Day 1,2016-11-25 19:00:00,19,2016-11-25 21:00:00,21,True
+145,292000000000000.0,basketball,Barclays Center Classic Day 2,2016-11-26 19:00:00,19,2016-11-26 21:00:00,21,False
+147,552000000000000.0,basketball,Brooklyn Nets v. Sacramento Kings (Texting Gloves Giveaway),2016-11-27 18:00:00,18,2016-11-27 20:00:00,20,False
+148,1770000000000000.0,hockey,New York Islanders v. Calgary Flames (Rally Towel Giveaway),2016-11-28 19:00:00,19,2016-11-28 21:00:00,21,True
+149,1020000000000000.0,basketball,Brooklyn Nets v. Los Angeles Clippers,2016-11-29 19:30:00,19,2016-11-29 21:30:00,21,True
+150,262000000000000.0,hockey,New York Islanders v. Pittsburgh Penguins,2016-11-30 20:00:00,20,2016-11-30 22:00:00,22,True
+151,955000000000000.0,basketball,Brooklyn Nets v. Milwaukee Bucks,2016-12-01 19:30:00,19,2016-12-01 21:30:00,21,True
+152,202000000000000.0,hockey,New York Islanders v. Detroit Red Wings,2016-12-04 18:00:00,18,2016-12-04 20:00:00,20,False
+153,1770000000000000.0,basketball,Brooklyn Nets v. Washington Wizards,2016-12-05 19:30:00,19,2016-12-05 21:30:00,21,True
+154,657000000000000.0,hockey,New York Islanders v. New York Rangers,2016-12-06 19:00:00,19,2016-12-06 21:00:00,21,True
+155,1220000000000000.0,basketball,Brooklyn Nets v. Denver Nuggets (Brook Lopez Star Wars Bobblehead),2016-12-07 19:30:00,19,2016-12-07 21:30:00,21,True
+156,1560000000000000.0,hockey,New York Islanders v. St. Louis Blues,2016-12-08 19:00:00,19,2016-12-08 21:00:00,21,True
+157,1320000000000000.0,family,Wcbs-Fm 101.1 Presents Holiday in Brooklyn,2016-12-09 20:00:00,20,2016-12-09 22:00:00,22,True
+159,974000000000000.0,hockey,New York Islanders v. Washington Capitals (Star Wars Beanie Giveaway),2016-12-13 19:00:00,19,2016-12-13 21:00:00,21,True
+160,1250000000000000.0,basketball,Brooklyn Nets v. Los Angeles Lakers,2016-12-14 19:30:00,19,2016-12-14 21:30:00,21,True
+161,1230000000000000.0,hockey,New York Islanders V Chicago Blackhawks,2016-12-15 19:00:00,19,2016-12-15 21:00:00,21,True
+162,239000000000000.0,hockey,New York Islanders V Ottawa Senators (Ugly Holiday T-Shirt Giveaway),2016-12-18 19:00:00,19,2016-12-18 21:00:00,21,False
+163,1200000000000000.0,basketball,LIU Brooklyn Blackbirds Men's Basketball vs. Niagara University Purple Eagles Men's Basketball,2016-12-21 17:00:00,17,2016-12-21 19:00:00,19,True
+164,1180000000000000.0,basketball,Brooklyn Nets v. Golden State Warriors,2016-12-22 19:30:00,19,2016-12-22 21:30:00,21,True
+165,1580000000000000.0,hockey,New York Islanders V Buffalo Sabres,2016-12-23 19:00:00,19,2016-12-23 21:00:00,21,True
+167,1190000000000000.0,basketball,Brooklyn Nets v. Charlotte Hornets (Winter Scarf Giveaway),2016-12-26 19:30:00,19,2016-12-26 21:30:00,21,True
+168,1120000000000000.0,hockey,New York Islanders V Washington Capitals,2016-12-27 19:00:00,19,2016-12-27 21:00:00,21,True
+169,908000000000000.0,boxing,WWE Live Holiday Tour,2016-12-28 19:30:00,19,2016-12-28 20:30:00,20,True

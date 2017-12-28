@@ -1,26 +1,29 @@
-# ADSproject
+# Post-event Citi Bike Ridership Analysis of Barclays Center
+### NYU CUSP Fall 2017 Appied Data Science Coursework Project
 
-GetCitiBike
-GetBarclayEvents
+## Objectives
 
+1. Predict Citi Bike demands for stations around Barclays Center
+2. Identify ridership and popular destinations based on event types
 
+## Data
 ### Events Data
-- Get all the 2016 events in Barclays Center via Facebook API.
-  The data in Barclays Center Website (http://www.barclayscenter.com/events/) is in html and difficult to collect. So choose    to use the events in Barclays Center's FB page.
+- All 2016 events in Barclays Center via Facebook Fanpage API.
   
-  Two concerns:
-  1. There is no end time in both FB and Official Web.
-  2. There is no categories in FB data.
+Caveats:
 
-- Find a list of 2016 concerts in Barclays Center in Wiki, which has "Tickets Sold" info.
+1. No end time from both FB and official website.
+2. No event categories in FB data.
+3. No event attendee numbers data.
 
-### CitiBike Data (updated: 11/14)
-- The subset csv file contains Citi Bike trips throughout 2016 that originated from the 32 stations within the 1 km radius of the Barclay Center and between 16:00 - 24:00. (~100,000 trips)
+Potential Solutions:
 
-### To-do
-- confirm and merge event types
-- add end time
-- calculate trip distance
-- explore database solution (potentially with Carto)
-- calculate mode for trip direction
-- research best mapping options
+1. Manually assign reasonable categories and end time.
+2. Find a list of 2016 concerts in Barclays Center in Wiki, which has "Tickets Sold" info.
+
+### Citi Bike Data
+- Retrieved from Citi Bike system data on the official website.
+
+## Method
+1. OLS multivariate regressions
+2. K-means clustering
